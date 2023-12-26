@@ -1,0 +1,182 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  font-weight: 300;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+/*
+    RESSOURCES 
+
+    0px---600px ( PHONE )
+    600px---900px ( TABLET PORTRAIT )
+    900px---1200px ( TABLET LANDSCAPE )
+    1200px-- 1800px ( NORMAL PC )
+    1800px--- +00 ( BIG DESKTOP )
+
+*/
+.close {
+  position: absolute;
+  top: 5%;
+  right: 17%;
+}
+.close a {
+  color: grey;
+}
+.close i {
+  font-size: 1.5rem;
+  padding: 1rem 1.2rem;
+  background-color: white;
+  border-radius: 500px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.close i:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.close i:active {
+  transform: scale(0.99);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0);
+} 
+.login, .signup {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(90deg, #052c3fe9, #0277B2);
+}
+.login .container, .signup > .container {
+  width: 60rem;
+  height: 45rem;
+  border-radius: 5px;
+  background-color: #D9D9D9;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.login .container-box img, .signup .container > .container-box img {
+  margin: 2.5rem 40%;
+  width: 10rem;
+}
+.login .container-box h3, .signup .container> .container-box h3 {
+  margin: 1rem 3rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.login .container-box p, .signup .container-box p {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  color: grey;
+}
+.login .container-box form, .signup .container-box form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 3rem auto;
+}
+.login .container-box form > *, .signup .container-box form > * {
+  margin: 0.2rem 0;
+}
+.login .container-box form input, .signup .container > .container-box form input,
+.login .container-box form button,
+.signup .container > .container-box form button{
+  padding: 1rem;
+  border: 0;
+  outline: 0;
+}
+.login .container-box form input, .signup > .container > .container-box form input {
+  background: rgba(250, 249, 249, 0.4);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+.login .container-box form button, .signup > .container > .container-box form button {
+  margin-top: 1rem;
+  color: white;
+  border-radius: 100px;
+  background-color: #0277B2;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.login .container-box form button a, .signup > .container > .container-box form button a{
+  color: white;
+}
+
+.signup > .container > .container-box form p {
+  margin-top: 1rem;
+}
+
+
+.login .container-box form button:hover, .signup .container > .container-box form button:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.login .container-box form button:active, .signup .container > .container-box form button:active {
+  transform: scale(0.99);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0);
+}
+.login .container-box a, .signup .container-box a {
+  color: #0096c7;
+}
+.login .container-illustration, .signup .container > .container-illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: url('../assert/img/bg_padding.png'), linear-gradient(90deg, #052c3fe9, #0277B2);
+  background-size: cover; 
+
+}
+.login .container-illustration img, .signup .container > .container-illustration img {
+  width: 35rem;
+  opacity: 0.9;
+}
+.login .container-illustration p, .signup .container > .container-illustration p {
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.signup .container {
+  height: 85;
+}
+
+
+button {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  font-family: "lato", Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
