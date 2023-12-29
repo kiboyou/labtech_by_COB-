@@ -108,12 +108,14 @@ html {
   justify-content: center;
   align-items: center;
   transform: scaleX(-1);
+  height: 45rem;
 }
 .index-header_container-3d img {
   width: auto;
-  height: 45rem;
-
+  height: 100%;
 }
+
+
 @keyframes scaling {
   0% {
     transform: scale(1);

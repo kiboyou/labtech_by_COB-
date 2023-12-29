@@ -105,7 +105,7 @@
         <div class="patient">
           <!-- TITRE -->
           <div class="title">
-            <p>Patients</p>
+            <p>ANALYSES</p>
           </div>
           <!-- RECHERCHE ET FILTRES -->
           <div class="search">
@@ -131,27 +131,103 @@
           </div>
           <!-- REPERES -->
           <div class="repere">
-            <p>Nom</p>
-            <p>Prenoms</p>
-              <p>Sexe</p>
-              <p>Date de naissance</p>
-              <p>Telephone</p>
-              <p>...</p>
+            <p>Nom du patient</p>
+            <p>Type d'analyse</p>
+            <p>Examen</p>
+            <p>Date de l'analyse</p>
+            <p>status du resultat</p>
+            <p>...</p>
           </div>
           <!-- LISTE DES PATIENTS -->
           <div class="list">
             <!-- Patient -->
             <div class="patient">
-              <p>OUATTARA</p>
-              <p>Kiboyou Mohamed</p>
-              <p>M</p>
+              <p>Ange BONI</p>
+              <p>biologie</p>
+              <p>Sanguin</p>
               <p>15/04/2022</p>
-              <p> 0759239686</p>
+              <p class="status">En cours...</p>
+              <div>
+                <!-- <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a> -->
+                <!-- <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a> -->
+                <p>Pas d'action</p>
+              </div>
+            </div>
+             <!-- Patient -->
+             <div class="patient">
+              <p>Ange BONI</p>
+              <p>biologie</p>
+              <p>Sanguin</p>
+              <p>15/04/2022</p>
+              <p class="status">En cours...</p>
+              <div>
+                <!-- <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a> -->
+                <!-- <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a> -->
+                <p>Pas d'action</p>
+              </div>
+            </div>
+
+             <!-- Patient -->
+             <div class="patient">
+              <p>Ange BONI</p>
+              <p>biologie</p>
+              <p>Sanguin</p>
+              <p>15/04/2022</p>
+              <p class="status">En cours...</p>
+              <div>
+                <!-- <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a> -->
+                <!-- <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a> -->
+                <p>Pas d'action</p>
+              </div>
+            </div>
+            
+               <!-- Patient -->
+            <div class="patient">
+              <p>Ange BONI</p>
+              <p>biologie</p>
+              <p>Sanguin</p>
+              <p>15/04/2022</p>
+              <p class="status_ok">Terminée</p>
               <div>
                 <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a>
                 <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a>
               </div>
+            </div>
 
+            <div class="patient">
+              <p>Ange BONI</p>
+              <p>biologie</p>
+              <p>Sanguin</p>
+              <p>15/04/2022</p>
+              <p class="status_ok">Terminée</p>
+              <div>
+                <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a>
+                <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a>
+              </div>
+            </div>
+
+            <div class="patient">
+              <p>Ange BONI</p>
+              <p>biologie</p>
+              <p>Sanguin</p>
+              <p>15/04/2022</p>
+              <p class="status_ok">Terminée</p>
+              <div>
+                <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a>
+                <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a>
+              </div>
+            </div>
+
+            <div class="patient">
+              <p>Ange BONI</p>
+              <p>biologie</p>
+              <p>Sanguin</p>
+              <p>15/04/2022</p>
+              <p class="status_ok">Terminée</p>
+              <div>
+                <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a>
+                <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a>
+              </div>
             </div>
         </div>
         <!-- PAGINATION -->
@@ -170,22 +246,32 @@
     <div class="patienting">
       <!-- ajouter un patient -->
       <div class="patienting-box">
-        <p>Enregistrer un patient</p>
+        <p>Enregistrer une analyse</p>
         <form>
-          <label for=""></label>
-          <input type="text" name="" placeholder="Nom">
 
-          <label for=""></label>
-          <input type="text" name="" placeholder="Prenom">
+          <label>Nom du patient</label>
+          <select name="">
+            <option value=""></option>
+            <option value="">Boni</option>
+            <option value="">Ange</option>
+            <option value="">Fanny</option>
+          </select>
 
-          <label for=""></label>
-          <input type="text" name="" placeholder="Sexe">
+          <label>Type d'analyse</label>
+          <select name="">
+            <option value=""></option>
+            <option value="">Biologie</option>
+            <option value="">Cardiologie</option>
+            <option value="">Sanguin</option>
+          </select>
 
-          <label for=""></label>
-          <input type="text" name="" placeholder="Date de naissance">
-
-          <label for=""></label>
-          <input type="number" name="" placeholder="Numero de telephone">
+          <label>Examen</label>
+          <select name="">
+            <option value=""></option>
+            <option value="">GEORGES PAUL</option>
+            <option value="">DELACROIX ERIC</option>
+            <option value="">DUCHESS REINE</option>
+          </select>
 
           <button type="submit">Valider</button>
         </form>
@@ -200,7 +286,7 @@
     <div class="delete">
       <div class="delete-box">
         <i class="fa-solid fa-triangle-exclamation"></i>
-        <p>Voulez-vous supprimer ce patient ?</p>
+        <p>Voulez-vous supprimer cette analyse ?</p>
         <button>Confirmer</button>
       </div>
       <div class="delete-cancel">
