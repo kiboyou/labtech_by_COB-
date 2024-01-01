@@ -130,11 +130,10 @@
           </div>
           <!-- REPERES -->
           <div class="repere">
-            <p>Nom</p>
-            <p>Prenoms</p>
-              <p>Sexe</p>
-              <p>Date de naissance</p>
-              <p>Telephone</p>
+              <p>Enregistrer par</p>
+              <p>Type d'analyse</p>
+              <p>Nom examen</p>
+              <p>Date d'enregistrement</p>
               <p>...</p>
           </div>
           <!-- LISTE DES PATIENTS -->
@@ -142,75 +141,9 @@
             <!-- Patient -->
             <div class="patient">
               <p>OUATTARA</p>
-              <p>Kiboyou Mohamed</p>
-              <p>M</p>
-              <p>15/04/2022</p>
-              <p> 0759239686</p>
-              <div>
-                <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a>
-                <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a>
-              </div>
-            </div>
-
-             <!-- Patient -->
-             <div class="patient">
-              <p>OUATTARA</p>
-              <p>Kiboyou Mohamed</p>
-              <p>M</p>
-              <p>15/04/2022</p>
-              <p> 0759239686</p>
-              <div>
-                <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a>
-                <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a>
-              </div>
-            </div>
-
-             <!-- Patient -->
-             <div class="patient">
-              <p>OUATTARA</p>
-              <p>Kiboyou Mohamed</p>
-              <p>M</p>
-              <p>15/04/2022</p>
-              <p> 0759239686</p>
-              <div>
-                <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a>
-                <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a>
-              </div>
-            </div>
-
-             <!-- Patient -->
-             <div class="patient">
-              <p>OUATTARA</p>
-              <p>Kiboyou Mohamed</p>
-              <p>M</p>
-              <p>15/04/2022</p>
-              <p> 0759239686</p>
-              <div>
-                <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a>
-                <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a>
-              </div>
-            </div>
-
-             <!-- Patient -->
-             <div class="patient">
-              <p>OUATTARA</p>
-              <p>Kiboyou Mohamed</p>
-              <p>M</p>
-              <p>15/04/2022</p>
-              <p> 0759239686</p>
-              <div>
-                <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a>
-                <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a>
-              </div>
-            </div>
-
-             <!-- Patient -->
-             <div class="patient">
-              <p>OUATTARA</p>
-              <p>Kiboyou Mohamed</p>
-              <p>M</p>
-              <p>15/04/2022</p>
-              <p> 0759239686</p>
+              <p> Biologie </p>
+              <p> Urologique </p>
+              <p> 15/04/2022 </p>
               <div>
                 <a href="#"><button class="set"><i class="fa-solid fa-pen"></i></button></a>
                 <a href="#"><button class="del"><i class=".los fa-solid fa-trash-can"></i></button></a>
@@ -233,22 +166,22 @@
     <div class="patienting">
       <!-- ajouter un patient -->
       <div class="patienting-box">
-        <p>Enregistrer un patient</p>
+        <p>Enregistrer un examen</p>
         <form>
           <label for=""></label>
-          <input type="text" name="" placeholder="Nom">
+          <input type="text" name="" placeholder="Nom de l'examen">
+
+          <br><br>
+
+          <select name="">
+            <option value="" selected>Choisissez type d'analyse</option>
+            <option value="">Biologie</option>
+            <option value="">Cardiologie</option>
+            <option value="">Chimique</option>
+          </select><br><br>
 
           <label for=""></label>
-          <input type="text" name="" placeholder="Prenom">
-
-          <label for=""></label>
-          <input type="text" name="" placeholder="Sexe">
-
-          <label for=""></label>
-          <input type="text" name="" placeholder="Date de naissance">
-
-          <label for=""></label>
-          <input type="number" name="" placeholder="Numero de telephone">
+          <input type="text" name="" placeholder="Save by">
 
           <button type="submit">Valider</button>
         </form>
